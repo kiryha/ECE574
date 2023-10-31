@@ -1,5 +1,5 @@
 """
-ECE579 Embedded Systems
+ECE574
 
 Final Project - Touch Type Workout - The keyboard training system for kids and seniors
 """
@@ -7,7 +7,7 @@ Final Project - Touch Type Workout - The keyboard training system for kids and s
 import os
 import time
 import json
-from PySide2 import QtWidgets, QtCore, QtGui
+from PySide2 import QtWidgets, QtGui
 from ui import ui_main
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.figure import Figure
