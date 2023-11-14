@@ -70,9 +70,9 @@ class MyStaticMplCanvas(StatisticCanvas):
 
         linewidth = 4
 
-        self.axes[0].plot(self.times, self.wpm, 'r', label='Words Per Minute', linewidth=linewidth)
-        self.axes[1].plot(self.times, self.errors, 'b', label='Errors %', linewidth=linewidth)
-        self.axes[2].plot(self.times, self.rhythm, 'g', label='Typing Rhythm',  linewidth=linewidth)
+        self.axes[0].plot(self.times, self.wpm, '#7758a3', label='Words Per Minute', linewidth=linewidth)
+        self.axes[1].plot(self.times, self.errors, '#c9492c', label='Errors %', linewidth=linewidth)
+        self.axes[2].plot(self.times, self.rhythm, '#99cc5e', label='Typing Rhythm',  linewidth=linewidth)
 
     def compute_initial_figure(self):
 
@@ -108,7 +108,7 @@ class TouchType(QtWidgets.QMainWindow, ui_main.Ui_TouchType):
         font = QtGui.QFont('Free Range Hive')
         font.setPointSize(48)
         self.labTasks.setFont(font)
-        font.setPointSize(32)
+        font.setPointSize(24)
         self.labRecommendation.setFont(font)
         self.labTasks.setText('PRESS  <font color="red">START LESSON</font> OR <font color="red">START TEST</font>')
 
@@ -365,6 +365,7 @@ class TouchType(QtWidgets.QMainWindow, ui_main.Ui_TouchType):
 
         # Save updated stat
         with open(self.statistic, 'w') as file_content:
+            print(f'>> Saving user statistics: {statistic_data}')
             json.dump(statistic_data, file_content, indent=4)
 
     # Flow control

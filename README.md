@@ -15,7 +15,7 @@ Addressing needs of this audience means that we have to build application with
 specific features:
  UI should be nice, simple and very well readable.
  We need to collect (and display) statistics of user performance using 3 features: typing speed, errors rate and typing rhythm.
- Based on statistics application will provide recommendation on what to improve when practice.
+ Based on statistics application will provide recommendation on what to improve when practiced.
 
 Touch Typing Workout will have two core parts: practice (lessons and tests) and statistics (performance measure and 
 recommendations). After each lesson or test user will be able to observe the progress of a study: graphs for typing speed, 

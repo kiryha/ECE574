@@ -127,10 +127,6 @@
   "Lesson 12": {
     "letters": ["q", "b"],
     "sequences": [
-      "QQQ BBB QQQ BBB QQQ BBB",
-      "QBQ QBQ QBQ QBQ QBQ QBQ",
-      "BQQ BQQ BQQ BQQ BQQ BQQ",
-      "QBQB QBQB QBQB QBQB QBQB QBQB"
-    ]
+      "QQQ BBB QQQ BBB QQQ BBB"]
   }
 }
