@@ -128,5 +128,58 @@
     "letters": ["q", "b"],
     "sequences": [
       "QQQ BBB QQQ BBB QQQ BBB"]
+  },
+  "Lesson 13": {
+    "letters": ["A", "B", "C", "D", "E", "F"],
+    "sequences": [
+      "AAA BBB CCC DDD EEE FFF",
+      "ABA BCB CDC DED EFE FAF",
+      "ABC BCD CDE DEF EFA FAB"
+    ]
+  },
+  "Lesson 14": {
+    "letters": ["a", "m"],
+    "sequences": [
+      "aaa MMM AAA mmm aaa MMM"]
+  },
+  "Lesson 15": {
+    "letters": ["c", "v", "b"],
+    "sequences": [
+      "ccc vvv bbb ccc vvv bbb",
+      "bbb vvv ccc bbb vvv ccc"
+    ]
+  },
+  "Lesson 16": {
+    "letters": ["g", "h", "i", "j", "k", "l"],
+    "sequences": [
+      "ggg hhh iii jjj kkk lll"]
+  },
+  "Lesson 17": {
+    "letters": ["x", "y", "z"],
+    "sequences": [
+      "XXX YYY ZZZ XXX YYY ZZZ",
+      "zzz yyy xxx zzz yyy xxx"
+    ]
+  },
+  "Lesson 18": {
+    "letters": ["l", "o", "l"],
+    "sequences": [
+      "LLL OOO LLL OOO LLL OOO"]
+  },
+  "Lesson 19": {
+    "letters": ["c", "a", "t"],
+    "sequences": [
+      "cat cat cat cat cat cat",
+      "CAT cat CAT cat CAT cat",
+      "CAT CAT CAT CAT CAT CAT"
+    ]
+  },
+  "Lesson 20": {
+    "letters": ["d", "o", "g"],
+    "sequences": [
+      "DOG DOG DOG DOG DOG DOG",
+      "dog DOG dog DOG dog DOG",
+      "dog dog dog dog dog dog"
+    ]
   }
 }
